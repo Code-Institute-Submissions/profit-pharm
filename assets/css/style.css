@@ -6,9 +6,15 @@ body {
   margin: 0;
   font-family: Arial;
   font-size: 17px;
-  
+  background-color:#000;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+color:  #219739;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+color:whitesmoke;
+}
 #myVideo {
   position: fixed;
   right: 0;
@@ -51,7 +57,14 @@ body {
   border-radius: 4px;
   box-sizing: border-box;
 }
+.card {
+    border: 3px solid #219739;
+}
 
+.card img {
+    height:auto;
+    width: auto;
+}
 /* Style the submit button */
 input[type=submit] {
   width: 100%;
@@ -75,4 +88,5 @@ input[type=submit]:hover {
 }
 div.container h2 {
     text-align:center;
+    color:#219739;
 }
