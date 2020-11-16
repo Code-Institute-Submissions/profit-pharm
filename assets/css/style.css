@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,34 +8,21 @@
 
 body {
   margin: 0;
-  font-family: Arial;
-  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   background-color:#000;
+}
+.navbar-nav a {
+    font-size: 1.5rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
 color:  #219739;
-
 }
 .navbar-dark .navbar-nav .nav-link:hover {
 color:whitesmoke;
 }
-/*#video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
 
-    z-index:300;
-}*/
 .video-container {
     position: absolute;
     top: 75px;
@@ -53,37 +42,6 @@ color:whitesmoke;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}*/
 
 /* Style inputs */
   input[type=text], select {
@@ -95,14 +53,7 @@ color:whitesmoke;
   border-radius: 4px;
   box-sizing: border-box;
 }
-.card {
-    border: 3px solid #219739;
-}
 
-.card img {
-    height:auto;
-    width: auto;
-}
 /* Style the submit button */
 input[type=submit] {
   width: 100%;
@@ -124,7 +75,31 @@ input[type=submit]:hover {
   background-color: #50ec20;
   padding: 20px;
 }
-div.container h2 {
+
+.form-container-vision {
+    border-radius: 5px;
+  background-color: #438def;
+  padding: 20px;
+}
+div.container h1, h2 {
     text-align:center;
     color:#219739;
 }
+
+/*-----------------------------------------------------Cards*/
+.card {
+    border: 3px solid #219739;
+    padding: 20px;
+}
+
+.card img {
+    height:auto;
+    width: auto;
+}
+
+.card-title {
+    font-family: "Exo" , sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
