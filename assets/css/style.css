@@ -10,7 +10,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color:#000;
-}
 
 
 /*-----------------------------------------Nav*/
@@ -45,6 +44,37 @@ color:whitesmoke;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/*-----------------------------------------------------------------Jumbotron*/
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/finalslide.png') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 /*------------------------------------------Business Builder form*/
 
