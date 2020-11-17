@@ -1,30 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
 * {
     margin: 0;
     padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    /*use rem not px*/
+    /*set global size to 10px for easy rem calc*/
+    font-size:10px;
 }
-
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  background-color:#000;
-
-
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    background-color: #000;
+}
 /*-----------------------------------------Nav*/
 .navbar-nav a {
     font-size: 1.5rem;
 }
-
 .navbar-dark .navbar-nav .nav-link {
-color:  #219739;
+    color: #219739;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-color:whitesmoke;
+    color: whitesmoke;
 }
-
-
 /*----------------------------------------Video*/
 .video-container {
     position: absolute;
@@ -36,122 +33,97 @@ color:whitesmoke;
     z-index: -1;
 }
 .video-container video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
 }
 /*-----------------------------------------------------------------Jumbotron*/
 .callout-container {
     height: 100vh;
-
     background: url('../images/finalslide.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: -1;
-    
+    /*z-index: -1;*/
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
-
 .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
 .content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
 }
 /*------------------------------------------Business Builder form*/
-
-  input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+input[type=text], select {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    margin: .8rem 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: .4rem;
+    box-sizing: border-box;
 }
-
-
 input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049 !important;
 }
 .form-container-details {
-  border-radius: 5px;
-  background-color: #f4f4f4;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f4f4f4 !important;;
+    padding: 20px;
 }
-
 .form-container-vision {
     border-radius: 5px;
-  background-color: #438def;
-  padding: 20px;
+    background-color: #438def !important;;
+    padding: 20px;
 }
 div.container h1, h2 {
-    text-align:center;
-    color:#219739;
+    text-align: center;
+    color: #219739;
 }
-
 /*-----------------------------------------------------Cards*/
 .card {
     border: 3px solid #219739;
     padding: 20px;
 }
-
 .card img {
-    height:auto;
+    height: auto;
     width: auto;
 }
-
 .card-title {
-    font-family: "Exo" , sans-serif;
+    font-family: "Exo", sans-serif;
     text-align: center;
     font-weight: 700;
 }
-
-
-
-
-
-
-
 /* ----------------------------------------Footer */
-
 footer {
     background-color: #000;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
-
 .ipn-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -162,15 +134,12 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .ipn-pdf i:hover {
     color: #219739;
 }
-
 .social-links {
     padding-bottom: 15px;
 }
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -186,11 +155,9 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .social-links li a i:hover {
     background: #219739;
 }
-
 #footer-details {
     padding: 20px;
 }
