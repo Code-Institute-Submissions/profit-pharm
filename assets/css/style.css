@@ -195,3 +195,17 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+
+
+
+
+
+
+ @media screen and (max-width: 993px) {
+  .card-text {
+    font-size: 2rem;
+  }
+  .btn {font-size:2rem;
+  min-width: 125px;}
+}
