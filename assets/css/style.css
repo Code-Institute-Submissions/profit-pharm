@@ -16,6 +16,7 @@ body {
 .navbar-nav a {
     font-size: 2.5rem;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: #219739;
 }
@@ -153,16 +154,41 @@ div.container h1, h2 {
 }
 /* ----------------------------------------Footer */
 footer {
-    background-color: #000;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
+    background-color: #212529;
+    color: #219739;
+    font-size: 4rem;
+    min-height: 12rem;
+    margin:0;
+    padding: 2.5rem 0 0.5rem 0;  
 }
-.ipn-pdf i {
-    font-size: 18px;
+
+#footer-content p {
+    font-size: 1.5rem;
+}
+
+.useful {
+    text-align:center;
+}
+.leo i {
+    font-size: 1.75rem;
     color: #fafafa;
     text-align: center;
-    padding-left: 5px;
+    padding-left: 0.5rem;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.leo i:hover {
+    color: #219739;
+}
+
+
+.ipn-pdf i {
+    font-size: 1.75rem;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 0.5rem;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -172,18 +198,22 @@ footer {
     color: #219739;
 }
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+    float:right;
+}
+.social-links h3 {
+    text-align:center;
 }
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 4rem;
+    height: 4rem;
+    padding: 1.2rem 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 2rem;
+    line-height: 1.4rem;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #212529;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -191,10 +221,14 @@ footer {
 }
 .social-links li a i:hover {
     background: #219739;
+    color:#212529;
 }
-#footer-details {
-    padding: 20px;
+.copyright {
+    font-size:1.25rem;
+    text-align: center;
+    padding-top: 2.5rem;
 }
+
 
 
 
