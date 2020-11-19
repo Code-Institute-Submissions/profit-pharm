@@ -153,9 +153,6 @@ div.container h1, h2 {
     border-radius: 20px;
 }
 /*----------------------------------------Contact Form*/
-/*.container .contact-form{*/
-
-
 
 .contact-form {
     background:#212529;
@@ -195,29 +192,6 @@ div.container h1, h2 {
 
 
 
-
-
-/* ----------------------------------------Footer */
-footer {
-    background-color: #212529;
-    color: #219739;
-    font-size: 4rem;
-    min-height: 12rem;
-    margin:0;
-    padding: 2.5rem 0 0.5rem 0; 
-    position: absolute;
-    overflow: hidden;
-
-left: 0;
-
-right: 0;
-
-bottom: 0;
-}
-
-#footer-content p {
-    font-size: 1.5rem;
-}
 
 .useful {
     text-align:center;
@@ -282,7 +256,21 @@ bottom: 0;
     padding-top: 2.5rem;
 }
 
+.footer.content {
+    background-color: #212529;
+    color: #219739;
+    font-size: 4rem;
+    min-height: 7rem;
+    margin:0;
+    padding: 2.5rem 0 0.5rem 0; 
+    position: fixed;
+    overflow: hidden;
+}
 
+#footer-content p {
+    font-size: 1.5rem;
+    color:#219739;
+}
 
 
 
