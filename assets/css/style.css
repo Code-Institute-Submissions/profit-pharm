@@ -61,10 +61,29 @@ body {
     position: absolute;
     
 }
+.card-container {
+    z-index:1;
+}
+
+.card-title {text-align:center;
+    padding-right:25rem;}
 
 .card-text-rsk {
-    font-size:2rem;
+    font-size:1.75rem;
+    text-align:center;
+    padding-right:25rem;
+    
 }
+.card-text-rsk a[href^="tel"]{ font-size: 1.5rem; color:green; text-decoration:none; }
+
+.card-text-rsk a[href^="mailto"]{ font-size: 1.5rem; color:green; text-decoration:none; }
+
+.card-text-rsk a:hover {font-size: 1.5rem; color:white; background-color:green; text-decoration:none; }
+
+
+
+
+
 /*-----------------------------------------------------------------Jumbotron*/
 .callout-container {
     height: 100vh;
