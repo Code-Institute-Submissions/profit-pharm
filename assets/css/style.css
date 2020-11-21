@@ -221,18 +221,30 @@ div.container h1, h2 {
 .contact-form {
     background:#212529;
     color:#219739;
-    margin-top:7.5%;
-    margin-bottom:3.7%;
-    
-    padding:2rem;
+    margin-top:5.5rem;
+    padding-top:7rem 0 0rem 0;
+
     box-shadow: 0px 0px 10px 3px grey;
 }
 
-.contact-details a[href^="tel"]{ font-size: 1.75rem; color:#219739; text-decoration:none; }
+.contact-details a[href^="tel"]{ 
+    font-size: 1.75rem; 
+    color:#219739; 
+    text-decoration:none; 
+}
 
-.contact-details a[href^="mailto"]{ font-size: 1.75rem; color:#219739; text-decoration:none; }
+.contact-details a[href^="mailto"]{
+     font-size: 1.75rem;
+      color:#219739; 
+      text-decoration:none; 
+}
 
-.contact-details a:hover {font-size: 1.75rem; color:#fafafa; background-color:#219739; text-decoration:none; }
+.contact-details a:hover {
+    font-size: 1.75rem;
+     color:#fafafa;
+      background-color:#219739;
+       text-decoration:none;
+ }
 .contact-form hr {
     background: white;
 }
@@ -266,9 +278,11 @@ div.container h1, h2 {
 .footer-container {
     background-color:#212529;
     color:#219739;
-    height:15rem;
-    margin:0;
-    padding:2.5rem 0 0.5rem 0;
+    min-height:7.5rem;
+    margin-top:7.6%;
+    margin-bottom:3%;
+    padding:2.5rem 0 0 0;
+    position:absolute;
     overflow:hidden;
 }
 
@@ -358,8 +372,4 @@ div.container h1, h2 {
     .card img {
         margin:0 auto;
     }
-
-    /*.footer-content {
-        font-size:50%
-    }*/
-    
+    .social-links li a i{text-align:center;}
