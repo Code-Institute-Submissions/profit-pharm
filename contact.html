@@ -14,7 +14,7 @@ href="assets/images/faviconsmall.png">
 </head>
 <body>
 <header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a href="home.html" class="navbar-brand"> <img src="assets/images/logo.png" width="200" height="70"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,9 +22,7 @@ href="assets/images/faviconsmall.png">
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="index.html"></a>
-      </li>
+      
       <li class="nav-item ">
         <a class="nav-link" href="home.html">What we do</a>
       </li>
@@ -45,7 +43,7 @@ href="assets/images/faviconsmall.png">
 
 <section>
 <div class="container contact-form">
-<h1>Feel free to call, email or send us a message here - we always respond quickly</h1>
+<h1>Call, email or send us a message from here - we always respond quickly</h1>
 <hr>
 <div class="row">
 
@@ -61,28 +59,38 @@ href="assets/images/faviconsmall.png">
 </div>
 <div class="col-sm-6 form-contents">
 <div class="form-group">
-<label>Name:</label>
-<input type="text" class="form-control" required>
+<label for="fullname">Name:</label>
+<input type="text" id="fullname" name="fullname" class="form-control" placeholder="Your Name" required>
 </div>
 
 <div class="form-group">
-<label>Position:</label>
-<input type="text" class="form-control" required>
+<label for="position">Position:</label>
+<input type="text" id="position" name="position" class="form-control" placeholder="Your role" required>
 </div>
 
 <div class="form-group">
-<label>Pharmacy Name:</label>
-<input type="text" class="form-control" placeholder="Pharmacy name" required/>
+<label for="pharmaname">Pharmacy Name:</label>
+<input type="text" id="pharmaname" name="pharmaname" class="form-control" placeholder="Pharmacy name" required>
 </div>
 
 <div class="form-group">
-<label>Email</label>
-<input type="text" class="form-control" placeholder="Please enter your email address" required>
+<label for="homepage">Pharmacy website:</label>
+<input type="url" id="homepage" name="homepage" class="form-control" placeholder="Web address">
+</div>
+
+<div class="form-group">
+<label for="phone">Contact Number:</label>
+<input type="text" id="phone" name="phone" class="form-control" placeholder="Best contact number" required>
+</div>
+
+<div class="form-group">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" class="form-control" placeholder="Please enter your email address" required>
 </div>
 
 <div class="form-group">
 <label>Message</label>
-<textarea class="form-control"  rows="7"></textarea>
+<textarea class="form-control"  rows="10"></textarea>
 </div>
 
 <div class="form-check">
@@ -95,6 +103,7 @@ href="assets/images/faviconsmall.png">
 <label class="form-check-label">I consent to Profit Pharm contacting me regarding my message</label>
 </div>
 <br>
+
 <div class="form-group">
 <button class="btn btn-success btn-sm center-block">Send</button>
 
