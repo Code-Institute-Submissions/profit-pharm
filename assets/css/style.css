@@ -3,16 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*use rem not px*/
-    /*set global size to 10px for easy rem calc*/
     font-size:10px;
 }
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
-    background-color: #000;
-    
+    background: url('../images/pharmbackgroundtiny.png') no-repeat bottom right fixed; 
+    overflow-x:hidden;   
 }
+
+
 /*-----------------------------------------Nav*/
 .navbar-nav a {
     font-size: 2.5rem;
@@ -46,12 +46,16 @@ body {
   padding: 0 1.5rem;
 }
 /*----------------------------------------Video*/
+.container-fluid {
+    padding:0;
+}
 .video-container {
     position: absolute;
-    top: 0px;
+    top: 0;
     bottom: 0;
-    width: 98%;
-    height: 98%;
+    width: 100%;
+    height: 100%;
+    padding-left: -3rem;
     overflow: hidden;
     z-index: -1;
     
@@ -59,48 +63,37 @@ body {
 .video-container video {
     width: 100%;
     height: auto;
+    padding:0;
+    margin:0;
     position: absolute;
     
 }
 
 /*------------------------------------------------------------------Home*/
- .headline h1 {
-    color:#219739;
-    text-align:center;
-}
+ 
 
-
-.card-container {
-    z-index:1;
-}
-
-.card-title {text-align:justify;
-    }
-
-.card-text-rsk {
-    font-size:1.75rem;
-    text-align:justify;  
-    
-}
-.card-text-rsk a[href^="tel"]{ font-size: 1.75rem; color:#219739; text-decoration:none; }
-
-.card-text-rsk a[href^="mailto"]{ font-size: 1.75rem; color:#219739; text-decoration:none; }
-
-.card-text-rsk a:hover {font-size: 1.75rem; color:#fafafa; background-color:#219739; text-decoration:none; }
 
 
 
 
 
 /*-----------------------------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background: rgba(33, 151, 57, 0.7);
+    color:#fafafa;
+    
+     
+    
+}
 .callout-container {
     height: 100vh;
-    background: url('../images/insidepharmacytiny.jpg') no-repeat bottom right fixed;
+    background: url('../images/greenjspiecelow.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: -1;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,7 +105,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .jumbotron-header {
@@ -125,57 +118,91 @@ body {
 }
 
 .urgent {
-    font-size: 2rem;
+    font-size: 3rem;
     color:red;
 }
 .content-container {
-    padding-top: 7.5rem;
+    padding-top: 5rem;
     padding-bottom: 7.5rem;
+    width:90%;
 }
 
-.btn .btn-danger {
-    
-    border-radius: 2rem;
-}
-
-
-/*------------------------------------------Business Builder form*/
-
-.business-builder {
-   font-size:2rem; 
-   width:auto;
-   height:auto;
-
-}
-
-.business-builder h1 {
-    color:#219739;
-    text-align:center;
-    
-}
-
-/*input[type=submit] {
-    width: 100%;
-    background-color: grey;
+.jumbotron h1 {
     color: white;
-    padding: 0;
-    margin: 0.2rem 0;
-    border: none;
-    border-radius: 0.4px;
-    cursor: pointer;
-}*/
-
-
-
-
-
-
-
-.div.container h1, h2 {
-    text-align: center;
-    color: #219739;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
 }
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.btn-reg {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: #219739;
+    border: 0.2rem solid #fafafa;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 25rem;
+    padding: 0;
+    opacity:0.7;
+}
+
+.btn-reg:hover {
+    background-color: #212529;
+    color: #219739;
+    border: 0.2rem solid #219739;
+}
+
+
+
 /*-----------------------------------------------------Cards*/
+
+.card-container {
+    z-index:1;
+    padding:2rem;
+    margin-top:5rem;
+    margin-bottom:2.5rem
+}
+
+.card-title {text-align:justify;
+    }
+
+.card-text-rsk {
+    font-size:1.75rem;
+    text-align:justify;
+   
+   
+}
+.card-text-rsk a[href^="tel"]{ 
+    font-size: 1.75rem;
+    color:#219739;
+    text-decoration:none; 
+}
+
+.card-text-rsk a[href^="mailto"]{
+    font-size: 1.75rem;
+    color:#219739; 
+    text-decoration:none; 
+}
+
+.card-text-rsk a:hover {
+    font-size: 1.75rem;
+    color:#fafafa; 
+    background-color:#219739; 
+    text-decoration:none;
+}
+
 .card-container {
     margin-top:100px;
 }
@@ -187,6 +214,7 @@ body {
 .card img {
     height: auto;
     width: auto;
+    
 }
 .card-title {
     font-family: "Exo", sans-serif;
@@ -327,7 +355,28 @@ input[type="url"] {
     color:#219739;
 }
 
+.contact {
+    text-align:center;
+}
+.contact p {
+    line-height:1;
+}
+
+.contact a {
+    font-size:1.25rem;
+    color: #219739;
+}
+
+.contact a:hover {
+    background-color: #219739;
+    color: #fafafa;
+    text-decoration:none;
+}
 .useful {
+    text-align:center;
+}
+
+.download {
     text-align:center;
 }
 
@@ -363,9 +412,9 @@ input[type="url"] {
 
 .social-links {
     padding-bottom: 1.5rem;
-    float:right;
+    
 }
-.social-links h3{
+.social-links {
     text-align:center;
 }
 
@@ -376,7 +425,7 @@ input[type="url"] {
     border-radius: 50%;
     font-size: 2rem;
     line-height: 1.4rem;
-    text-align: center;
+    text-align:center;
     color: #fafafa;
     background: #212529;
     transition: all 0.35s ease-in-out;
@@ -394,6 +443,48 @@ input[type="url"] {
     font-size: 1rem;
     text-align:center;
     
+}
+
+.modal {
+    color: black;
+
+}
+
+.btn-modal {
+    color: #fafafa;
+
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #219739;
+    border-radius: 1rem;
+    margin-top: 25px;
+    height: 4rem;
+    width: 30%;
+    padding: 0;
+    
+}
+
+.btn-modal:hover {
+    background: #fafafa;
+    color: #219739;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  outline: #007542;
+  background-color: #fff;
+  color: #007542;
+  cursor: pointer;
+  padding: 15px;
+}
+
+#myBtn:hover {
+  background: #20ff9e;
+    color: #555;
 }
 
 @media screen and (max-width: 993px) {
