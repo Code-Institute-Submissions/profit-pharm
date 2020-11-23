@@ -70,7 +70,43 @@ body {
 }
 
 /*------------------------------------------------------------------Home*/
- 
+ .rsk-card-container {
+    z-index:1;
+    height:auto;
+    margin-top:100px;
+    margin-bottom:0;
+    padding:3.5rem;
+    
+}
+
+.card-title {text-align:justify;
+    }
+
+.card-text-rsk {
+    font-size:1.75rem;
+    text-align:justify;
+   
+   
+}
+.card-text-rsk a[href^="tel"]{ 
+    font-size: 1.75rem;
+    color:#219739;
+    text-decoration:none; 
+}
+
+.card-text-rsk a[href^="mailto"]{
+    font-size: 1.75rem;
+    color:#219739; 
+    text-decoration:none; 
+}
+
+.card-text-rsk a:hover {
+    font-size: 1.75rem;
+    color:#fafafa; 
+    background-color:#219739; 
+    text-decoration:none;
+}
+
 
 
 
@@ -165,7 +201,7 @@ body {
 
 
 
-/*-----------------------------------------------------Cards*/
+/*-----------------------------------------------------Success*/
 
 
 .success-start h2{
@@ -190,7 +226,7 @@ body {
     height:auto;
 }
 
-.success-download h2{
+.success-download h2 {
     font-size:3rem;
     color:#219739;
     text-align:center;
@@ -200,48 +236,25 @@ body {
     height:auto;
 
 }
-.rsk-card-container {
-    z-index:1;
-    height:auto;
-    margin-top:100px;
-    margin-bottom:0;
-    padding:3.5rem;
-    
+
+.success-download h2 i {
+    font-size:3rem;
+    color:#fafafa;
+    text-align:center;
+    padding-left:0.5rem;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.card-title {text-align:justify;
-    }
-
-.card-text-rsk {
-    font-size:1.75rem;
-    text-align:justify;
-   
-   
-}
-.card-text-rsk a[href^="tel"]{ 
-    font-size: 1.75rem;
+.success-download h2 i:hover {
     color:#219739;
-    text-decoration:none; 
-}
-
-.card-text-rsk a[href^="mailto"]{
-    font-size: 1.75rem;
-    color:#219739; 
-    text-decoration:none; 
-}
-
-.card-text-rsk a:hover {
-    font-size: 1.75rem;
-    color:#fafafa; 
-    background-color:#219739; 
-    text-decoration:none;
 }
 
 
 
-/*.rsk-card-container {
-    
-}*/
+
 
 .card {
     border: 3px solid #219739;
