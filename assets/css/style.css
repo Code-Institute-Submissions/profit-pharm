@@ -130,13 +130,13 @@ body {
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     color: white;
 }
 
 .jumbotron .lead {
     color: #a7a7a7;
-    margin: 25px 0;
+    margin: 2.5rem 0;
 }
 
 .jumbotron small {
@@ -168,11 +168,46 @@ body {
 
 /*-----------------------------------------------------Cards*/
 
+
+.success-start h2{
+    font-size:5rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    width:auto;
+    height:auto;
+}
+
+.success-start p {
+    font-size:3rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width:auto;
+    height:auto;
+}
+
+.success-download h2{
+    font-size:5rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    padding-bottom: 2rem;
+    width:auto;
+    height:auto;
+
+}
 .card-container {
     z-index:1;
-    padding:2rem;
-    margin-top:5rem;
-    margin-bottom:2.5rem
+    height:auto;
+    padding:0 3rem;
+    margin-top:0;
+    margin-bottom:0;
+    
 }
 
 .card-title {text-align:justify;
@@ -203,6 +238,8 @@ body {
     text-decoration:none;
 }
 
+
+
 .card-container {
     margin-top:100px;
 }
@@ -210,6 +247,8 @@ body {
 .card {
     border: 3px solid #219739;
     padding: 20px;
+    margin-bottom: 3rem !important;
+ }
 }
 .card img {
     height: auto;
@@ -469,33 +508,27 @@ input[type="url"] {
     color: #219739;
 }
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  outline: #007542;
-  background-color: #fff;
-  color: #007542;
-  cursor: pointer;
-  padding: 15px;
-}
 
-#myBtn:hover {
-  background: #20ff9e;
-    color: #555;
-}
 
 @media screen and (max-width: 993px) {
   .card-text {
     font-size: 1.5rem;
   }
-  
+  .success-start p {
+      font-size: 1.75rem;
+  }
+  .success-start h2 {
+      font-size:3rem;
+  }
   .btn {font-size:2rem;
   min-width: 125px;}
 }
 
+@media screen and (max-width: 993px){
+.content-container {
+    padding:0;
+}
+}
 @media screen and (max-width: 480px) {
     .card img {
         margin:0 auto;
