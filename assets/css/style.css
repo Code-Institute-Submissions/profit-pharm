@@ -39,9 +39,9 @@ body {
     box-shadow: none;
 }
 .navbar-toggler-icon{
-    font-size: 2rem;
-    
+    font-size: 2rem; 
 }
+
 .navbar-nav > li{
   padding: 0 1.5rem;
 }
@@ -158,9 +158,9 @@ body {
     border: 0.2rem solid #219739;
 }
 
-.agenda {
+.schedule h2{
     font-size: 2rem;
-    color:#fafafa
+    color:#fafafa;
 }
 
 
@@ -191,7 +191,7 @@ body {
 }
 
 .success-download h2{
-    font-size:5rem;
+    font-size:3rem;
     color:#219739;
     text-align:center;
     background-color:transparent;
@@ -374,8 +374,7 @@ input[type="url"] {
 }
 /*-------------------------------------testimonials*/
 
-.testimonial-container {
-}
+
 .testimonial-container h2{
     font-size:3rem;
     color:#219739;
@@ -387,8 +386,8 @@ input[type="url"] {
     height:auto;
 }
 
-.testimonial-container p {
-    font-size:2rem;
+.testimonial-container p{
+    font-size:1.5rem;
     color:#219739;
     text-align:center;
     background-color:transparent;
@@ -396,6 +395,10 @@ input[type="url"] {
     padding-bottom: 1rem;
     width:auto;
     height:auto;
+}
+
+.cname {
+    font-size:5rem;
 }
  /*-----------------------------------------footer*/
 
