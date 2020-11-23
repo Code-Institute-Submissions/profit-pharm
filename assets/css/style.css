@@ -79,13 +79,7 @@ body {
 
 /*-----------------------------------------------------------------Jumbotron*/
 
-.jumbotron {
-    background: rgba(33, 151, 57, 0.7);
-    color:#fafafa;
-    
-     
-    
-}
+
 .callout-container {
     height: 100vh;
     background: url('../images/greenjspiecelow.jpg') no-repeat bottom right fixed;
@@ -95,7 +89,7 @@ body {
     background-size: cover;
     z-index: 1;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     position: relative;
 }
@@ -108,30 +102,25 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.jumbotron-header {
-    font-size: 5rem;
-}
-
-.lead {
-    font-size: 2.5rem;
-    font-weight: 400;
-}
-
-.urgent {
-    font-size: 3rem;
-    color:red;
-}
 .content-container {
+    
     padding-top: 5rem;
     padding-bottom: 7.5rem;
-    width:90%;
 }
+.jumbotron {
+    background: rgba(33, 151, 57, 0.7); 
 
+    margin-top:25rem;
+    width:100%;
+}
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-bottom: 3rem;
-    color: white;
+    margin-bottom: 30px;
+}
+
+.jumbotron-header {
+    font-size: 10rem;
 }
 
 .jumbotron .lead {
@@ -201,12 +190,12 @@ body {
     height:auto;
 
 }
-.card-container {
+.rsk-card-container {
     z-index:1;
     height:auto;
-    padding:0 3rem;
-    margin-top:0;
+    margin-top:100px;
     margin-bottom:0;
+    padding:3.5rem;
     
 }
 
@@ -240,9 +229,9 @@ body {
 
 
 
-.card-container {
-    margin-top:100px;
-}
+/*.rsk-card-container {
+    
+}*/
 
 .card {
     border: 3px solid #219739;
@@ -510,7 +499,7 @@ input[type="url"] {
 
 
 
-@media screen and (max-width: 993px) {
+@media only screen and (max-width: 993px) {
   .card-text {
     font-size: 1.5rem;
   }
@@ -520,14 +509,17 @@ input[type="url"] {
   .success-start h2 {
       font-size:3rem;
   }
-  .btn {font-size:2rem;
-  min-width: 125px;}
+  .btn {
+      font-size:2rem;
+    min-width: 125px;
+}
+.jumbotron {
+    margin-top:3rem;
+}
+.jumbotron-header {
+    font-size: 5rem;
 }
 
-@media screen and (max-width: 993px){
-.content-container {
-    padding:0;
-}
 }
 @media screen and (max-width: 480px) {
     .card img {
