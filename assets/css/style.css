@@ -134,6 +134,11 @@ body {
     color: #d0d0d0;
 }
 
+.urgent {
+    color:red;
+    font-size: 2rem;
+}
+
 .btn-reg {
     font-family: 'Exo', sans-serif;
     font-weight: bold;
@@ -151,6 +156,11 @@ body {
     background-color: #212529;
     color: #219739;
     border: 0.2rem solid #219739;
+}
+
+.agenda {
+    font-size: 2rem;
+    color:#fafafa
 }
 
 
@@ -361,6 +371,31 @@ input[type="url"] {
 
 .form-check  {
     margin-right: 1.5rem;
+}
+/*-------------------------------------testimonials*/
+
+.testimonial-container {
+}
+.testimonial-container h2{
+    font-size:3rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    width:auto;
+    height:auto;
+}
+
+.testimonial-container p {
+    font-size:2rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width:auto;
+    height:auto;
 }
  /*-----------------------------------------footer*/
 
