@@ -423,6 +423,7 @@ input[type="url"] {
 }
 .form-group button {
     background-color:#219739;
+    width:4rem;
 }
 .form-check label  {
     font-size:1rem;

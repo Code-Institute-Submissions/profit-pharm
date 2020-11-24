@@ -1,142 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="icon" type="image/png" sizes="32x32"
-href="assets/images/faviconsmall.png">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Get in touch</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Description" content="Profit Pharm website contact form" />
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/faviconsmall.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Get in touch</title>
 </head>
+
 <body>
-<header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <a href="home.html" class="navbar-brand"> <img src="assets/images/logo.png" width="200" height="70"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<header>
+		<!----------navbar inc. logo  taken from Bootstrap and customised-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+			<a href="home.html" class="navbar-brand"> <img src="assets/images/logo.png" width="200" height="70"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
-      <li class="nav-item ">
-        <a class="nav-link" href="home.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="success.html">Success Model</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Resources</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="assets/docs/ipn.pdf" target="_blank">Profit Pharm GDPR IPN article</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="assets/docs/success.pdf" target="_blank">Success Model worksheet</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="assets/docs/foc.pdf" target="_blank">Formula for Change worksheet</a>
+						<li class="nav-item ">
+							<a class="nav-link" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="success.html">Success Model</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Resources</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="assets/docs/ipn.pdf" target="_blank">Profit Pharm GDPR
+									IPN article</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="assets/docs/success.pdf" target="_blank">Success Model
+									worksheet</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="assets/docs/foc.pdf" target="_blank">Formula for Change
+									worksheet</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+		</nav>
+	</header>
+<!-------------------Contact form--------quick revision via YouTube WebDev simplified-->
+	<section>
+		<div class="container contact-form">
+			<h1>Call, email or send us a message from here - we always respond quickly</h1>
+			<hr>
+			<div class="row">
+
+				<div class="col-sm-6 contact-details">
+					<h2>Profit Pharm</h2>
+					<p>Suite 127</p>
+					<p>Blackhall</p>
+					<p>Mullingar</p>
+					<p>Co. Westmeath</p>
+					<p>N91 P7D4</p>
+					<p>Email:- <a href="mailto:richard@profitpharm.ie">info@profitpharm.ie</a></p>
+					<p>Phone:- <a href="tel:+353-85-1455-425" title="Click to Call">085 123 4567</a></p>
+				</div>
+				<div class="col-sm-6 form-contents">
+					<div class="form-group">
+						<label for="fullname">Name:</label>
+						<input type="text" id="fullname" name="fullname" class="form-control" placeholder="Your Name" required>
+                    </div>
+
+						<div class="form-group">
+							<label for="position">Position:</label>
+							<input type="text" id="position" name="position" class="form-control" placeholder="Your role" required>
+                        </div>
+
+							<div class="form-group">
+								<label for="pharmaname">Pharmacy Name:</label>
+								<input type="text" id="pharmaname" name="pharmaname" class="form-control" placeholder="Pharmacy name" required>
+                          </div>
+
+								<div class="form-group">
+									<label for="homepage">Pharmacy website:</label>
+									<input type="url" id="homepage" name="homepage" class="form-control" placeholder="Web address">
                                 </div>
-                                </li>
-      
-    </ul> 
-    
-  </div>
-  </nav> 
-</header>
 
-<section>
-<div class="container contact-form">
-<h1>Call, email or send us a message from here - we always respond quickly</h1>
-<hr>
-<div class="row">
+									<div class="form-group">
+										<label for="phone">Contact Number:</label>
+										<input type="text" id="phone" name="phone" class="form-control" placeholder="Best contact number" required>
+                                </div>
 
-<div class="col-sm-6 contact-details">
-<h2>Profit Pharm</h2>
-<p>Suite 127</p>
-<p>Blackhall</p>
-<p>Mullingar</p>
-<p>Co. Westmeath</p>
-<p>N91 P7D4</p>
-<p>Email:- <a href="mailto:richard@profitpharm.ie">info@profitpharm.ie</a></p>
-<p>Phone:-  <a href="tel:+353-85-1455-425" title="Click to Call">085 123 4567</a></p>
-</div>
-<div class="col-sm-6 form-contents">
-<div class="form-group">
-<label for="fullname">Name:</label>
-<input type="text" id="fullname" name="fullname" class="form-control" placeholder="Your Name" required>
-</div>
+										<div class="form-group">
+											<label for="email">Email:</label>
+											<input type="email" id="email" name="email" class="form-control" placeholder="Please enter your email address" required>
+                                </div>
 
-<div class="form-group">
-<label for="position">Position:</label>
-<input type="text" id="position" name="position" class="form-control" placeholder="Your role" required>
-</div>
+											<div class="form-group">
+												<label>Message</label>
+												<textarea class="form-control"  rows="10"></textarea>
+											</div>
 
-<div class="form-group">
-<label for="pharmaname">Pharmacy Name:</label>
-<input type="text" id="pharmaname" name="pharmaname" class="form-control" placeholder="Pharmacy name" required>
-</div>
+											<div class="form-check">
+												<input  type="checkbox" class="form-check-input" required/>
+												<label class="form-check-label">Tick the box to receive our fantastic monthly newsletter "Grow my Pharmacy" - full of good stuff that will help you boost your profits</label>
+											</div>
 
-<div class="form-group">
-<label for="homepage">Pharmacy website:</label>
-<input type="url" id="homepage" name="homepage" class="form-control" placeholder="Web address">
-</div>
+											<div class="form-check">
+												<input  type="checkbox" class="form-check-input" required/>
+												<label class="form-check-label">I consent to Profit Pharm contacting me regarding my message</label>
+											</div>
+											<br>
 
-<div class="form-group">
-<label for="phone">Contact Number:</label>
-<input type="text" id="phone" name="phone" class="form-control" placeholder="Best contact number" required>
-</div>
+											<div class="form-group">
+												<button class="btn btn-success btn-md center-block">Send</button>
 
-<div class="form-group">
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" class="form-control" placeholder="Please enter your email address" required>
-</div>
-
-<div class="form-group">
-<label>Message</label>
-<textarea class="form-control"  rows="10"></textarea>
-</div>
-
-<div class="form-check">
- <input  type="checkbox" class="form-check-input" required/>
-<label class="form-check-label">Tick the box to receive our fantastic monthly newsletter "Grow my Pharmacy" - full of good stuff that will help you boost your profits</label>
-</div>
-
-<div class="form-check">
- <input  type="checkbox" class="form-check-input" required/>
-<label class="form-check-label">I consent to Profit Pharm contacting me regarding my message</label>
-</div>
-<br>
-
-<div class="form-group">
-<button class="btn btn-success btn-sm center-block">Send</button>
-
-</div>
-</div>
-</div>
-</div>
-</section>
+											</div>
+										</div>
+									</div>
+								</div>
+	</section>
 
 
-    
+
+
+
+	<!--------------------Footer-------from Bootstrap--customised---->
 <footer class="container-fluid footer-container">
         <div id="footer-content" class="row">
             <div class="col-sm-3 contact">
                 <p class="inline-block">
                 <h3>Profit Pharm</h3>
-<p>Suite 127, Blackhall</p>
-<p>Mullingar</p>
-<p>Co. Westmeath</p>
-<p>N91 P7D4</p>
-<p>Email:- <a href="mailto:richard@profitpharm.ie">info@profitpharm.ie</a></p>
-<p>Phone:-  <a href="tel:+353-85-1455-425" title="Click to Call">085 123 4567</a></p>
-                </p>
-</div>
+                    <p>Suite 127, Blackhall</p>
+                    <p>Mullingar</p>
+                    <p>Co. Westmeath</p>
+                    <p>N91 P7D4</p>
+                    <p>Email:- <a href="mailto:richard@profitpharm.ie">info@profitpharm.ie</a></p>
+                    <p>Phone:-  <a href="tel:+353-85-1455-425" title="Click to Call">085 123 4567</a></p>
+                                    </p>
+            </div>
         
             <div class="col-sm-3 useful">
                <h3>Useful links</h3>
@@ -144,32 +150,32 @@ href="assets/images/faviconsmall.png">
                 <p class="inline-block">
                 LEO Trading Online Voucher scheme info
                    <a href="https://www.localenterprise.ie/Discover-Business-Supports/Trading-Online-Voucher-Scheme-/" target="_blank" class="leo"> <i class="fas fa-link" aria-hidden="true"></i>
-                   <span class="sr-only">Download link.</span>
+                   <span class="sr-only">Local Enterprise Trading online Vocher</span>
                    </a>
                    
                 </p>
                 <p class="inline-block">
                 IPU
                    <a href="https://ipu.ie/home/" target="_blank" class="leo"> <i class="fas fa-link" aria-hidden="true"></i>
-                   <span class="sr-only">Download link.</span>
+                   <span class="sr-only">Irish Pharmacy Union link</span>
                    </a> 
                 </p> 
             
-            <p class="inline-block">
+                <p class="inline-block">
                 PSI
                    <a href="https://www.thepsi.ie/gns/home.aspx" target="_blank" class="leo"> <i class="fas fa-link" aria-hidden="true"></i>
-                   <span class="sr-only">Download link.</span>
+                   <span class="sr-only">Pharmaceutical Society Ireland link</span>
                    </a> 
                 </p> 
                 </div>
-            <div class="col-sm-3 download">
+             <div class="col-sm-3 download">
                <h3>Download</h3>
                 <p class="inline-block">
                 
                    Profit Pharm GDPR IPN article
                     <a href="assets/docs/ipn.pdf" target="_blank" class="ipn-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
+                        <span class="sr-only">Download GDPR article link.</span>
                     </a>
                     
                 </p>
@@ -178,7 +184,7 @@ href="assets/images/faviconsmall.png">
                    Success Model Worksheet
                     <a href="assets/docs/success.pdf" target="_blank" class="ipn-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
+                        <span class="sr-only">Download Success Model worksheet link.</span>
                     </a>
                     
                 </p>
@@ -187,12 +193,12 @@ href="assets/images/faviconsmall.png">
                    Formula for Change Worksheet
                     <a href="assets/docs/foc.pdf" target="_blank" class="ipn-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
+                        <span class="sr-only">Formula for Change worksheet download link</span>
                     </a>
                     
                 </p>
             </div>
-            <div class="col-sm-3">
+                <div class="col-sm-3">
                 
                 <ul class="list-inline social-links">
                 <h3>Connect</h3>
@@ -233,8 +239,12 @@ href="assets/images/faviconsmall.png">
        
         
     </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
