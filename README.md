@@ -2,7 +2,7 @@
 
 ## Profit Pharm Milestone 1 Project Code Institute
 
-![Responsive](https://github.com/Richard-Kelly920/profit-pharm/blob/01ccd3dfd56343905130464bfb2c06270cc3e977/wireframes/Responsive.png)
+![alt text](https://github.com/Richard-Kelly920/profit-pharm/blob/01ccd3dfd56343905130464bfb2c06270cc3e977/wireframes/responsive.png)
 
 ### Introduction
 
