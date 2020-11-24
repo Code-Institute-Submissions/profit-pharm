@@ -13,7 +13,7 @@ body {
 }
 
 
-/*-----------------------------------------Nav*/
+/*-----------------------------------------Nav----from-Bootstrap----custom--css---applied*/
 .navbar-nav a {
     font-size: 2.5rem;
 }
@@ -45,7 +45,7 @@ body {
 .navbar-nav > li{
   padding: 0 1.5rem;
 }
-/*----------------------------------------Video*/
+/*----------------------------------------Video-------original code from  W3 to make this work-----*/
 .container-fluid {
     padding:0;
 }
@@ -130,7 +130,6 @@ body {
     background-color:transparent;
     margin-top: 2.5rem;
     padding: 2.5rem 2.5rem 1rem 2rem;
-    
     width:auto;
     height:auto;
 }
@@ -139,11 +138,7 @@ body {
     font-size:1.5rem;
 }
 
-
-
-
-
-/*-----------------------------------------------------------------Jumbotron*/
+/*---------original code copied form Whiskey Drop exercise thanks Matt Rudge customised subsequently to suit--------------------------------------------------------Jumbotron*/
 
 
 .callout-container {
@@ -329,7 +324,7 @@ body {
     color:#219739;
 }
 
-/*----------------------------------------Contact Form*/
+/*--------------------------Code to change input properties gleaned from reading various Stackflow answers-------custom code to suit my own choices-----Contact Form*/
 input[type="text"] {
     width: 100%;
     padding: 1.5rem;
@@ -423,7 +418,6 @@ input[type="url"] {
 }
 .form-group button {
     background-color:#219739;
-    width:4rem;
 }
 .form-check label  {
     font-size:1rem;
@@ -436,7 +430,7 @@ input[type="url"] {
 }
 
 
- /*-----------------------------------------footer*/
+ /*---------------code adapted from Whiskey Drop for Social icons--------------------------footer*/
 
  
  
@@ -543,10 +537,9 @@ input[type="url"] {
 
 .copyright {
     font-size: 1rem;
-    text-align:center;
-    
+    text-align:center;   
 }
-
+/*-----------------------custom code for modal html taken from bootstrap---------*/
 .modal {
     color: rgb(20, 126, 11);
 }
@@ -593,8 +586,6 @@ input[type="url"] {
 .jumbotron-header {
     font-size: 3rem;
 }
-.
-
 
 }
 @media screen and (max-width: 480px) {
@@ -605,9 +596,10 @@ input[type="url"] {
         text-align:center;
 }
 
-jumbotron h2 h3  {
+.jumbotron h2 h3  {
     font-size:1.75rem;
 }
 .jumbotron .lead  {
     font-size:1.5rem;
+}
 }
