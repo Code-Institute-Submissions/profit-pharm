@@ -4,7 +4,7 @@
 
 
 
-![](https://github.com/Richard-Kelly920/profit-pharm/blob/01ccd3dfd56343905130464bfb2c06270cc3e977/wireframes/responsive.png)
+![](https://github.com/Richard-Kelly920/profit-pharm/blob/4e9e88ffb22c045e214804509b0443e7c6201dbe/wireframes/responsive.png)
 
 
 ### Introduction
@@ -18,14 +18,16 @@
 
 As the name suggests Profit Pharm exists to work with independent community pharmacists throughout Ireland, 
 so the market very niche also relatively small around 1700, of which maybe 50% are still truly independent. 
-There are many others, known as “symbol” pahrmacies, who retain an independent name but are attached to the 
-likes of Haven, Careplus and other similar groups. This has been exacerbated during this COVID period as   As a group, pharmacists have certain personality traits which need to be understood and addressed when presenting solutions of any sorts.
-On the back of what for many has been their toughest ever, trying to get heads around “looking forward” has been challenging,however, hopefuuly there’s light at the end of the tunnel
+There are many others, known as “symbol” pharmacies, who retain an independent name but are attached to the 
+likes of Haven, Careplus and other similar groups. This has been exacerbated during this COVID period.
+As a group, pharmacists have certain personality traits which need to be understood and addressed when presenting solutions of any sorts.
+On the back of what for many has been their toughest ever, 
+trying to get heads around “looking forward” has been challenging,however, hopefuuly there’s light at the end of the tunnel
 
 ### Owner goals
 
 As the owner of Profit Pharm – my primary goal is to get engagement directly with the pharmacy owner. The business has most to offer when we get fully involved. 
-Having set up our December – a true measure of the initial success of this site will be the number of attendees.
+Having set up our December event – a true measure of the initial success of this site will be the number of attendees.
 I want to develop new ways to win clients as our more traditional consultancy approach has more or less ceased to function
 I want to develop an primary online business and be better placed to target the country as a whole
 I want pharmacists to see Profit Pharm as a trusted partner
