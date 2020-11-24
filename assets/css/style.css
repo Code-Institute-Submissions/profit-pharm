@@ -260,7 +260,7 @@ body {
 }
 
 .success-start p {
-    font-size:3rem;
+    font-size:2.5rem;
     color:#219739;
     text-align:center;
     background-color:transparent;
@@ -270,7 +270,8 @@ body {
     height:auto;
 }
 
-.success-download h2 {
+
+.success-download h2  {
     font-size:3rem;
     color:#219739;
     text-align:center;
@@ -300,8 +301,9 @@ body {
     border: 3px solid #219739;
     padding: 20px;
     margin-bottom: 3rem !important;
+    
  }
-}
+
 .card img {
     height: auto;
     width: auto;
@@ -313,14 +315,20 @@ body {
     font-weight: 800;
     font-size: 3rem;
 }
-.card-text {
-    font-size: 2.5rem;
+.card-text-success {
+    font-size: 2rem;
 }
-.btn {
-    min-width: 100px;
-    font-size: 2.5rem;
-    border-radius: 20px;
+
+.card-text-success a{
+    font-size: 1.75rem;
+    color:#219739;
+    text-decoration:none; 
 }
+.card-text-reflect {
+    font-size:1.8rem;
+    color:#219739;
+}
+
 /*----------------------------------------Contact Form*/
 input[type="text"] {
     width: 100%;
