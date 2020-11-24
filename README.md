@@ -70,9 +70,157 @@ I went with Roboto, as it is one of Google preferred UI interfaces and I wanted 
 
 ## Colour Palette
 Colour choice was based on the colours used by a leading Irish Pharmacy magazine – see pic. Most pharmacists see this once a month. This idea is to lead the pharmacist, in a subliminal way that it’s something they already recognise and trust. I like the mix myself and have designed artwork for pharmacies using these color combinations. I like the contrast.
-I also created the background image for the site – I layered a very dark green on top to match the generel theme, 
+I also created the background image for the site – I layered a very dark green on top to match the generel theme,
+
+![](https://github.com/Richard-Kelly920/profit-pharm/blob/429e720caea15952b586b3a006f82a5853918482/wireframes/ipn.png)
 
 ![](https://github.com/Richard-Kelly920/profit-pharm/blob/e4c5779eb2f593afe348eb0efa6d308332214440/wireframes/My%20project.png)
+
+
+
+## Technologies
+
+### Languages
+
+During the building of this site the following languages and frameworks were used
+HTML5
+
+CSS3
+
+Icons from Font Awesome
+
+Fonts from Google
+
+Bootstrap was used for the main structure – having been introduced to it, it seemed the most expedient way to get a structure built as I was under time pressure. A learning from this however is I will learn CSS flex and grid as I feel it may better suit my creative style.
+
+The only Javascript used is to complete the modal cycle.
+
+Tinypng was used to reduce picture weight.
+
+
+
+
+### Tools
+
+Git – to manage version control through committing and pushing via cloud to repository
+Again, a learning for me is to adapt my work style to review and commit and push more often – my default position has always been immersive – so, I need to change my work habits foing forward
+Github – aforementioned repository for all created material and projects.
+Microsoft Powerpoint -my “go to” design platform – used to build video, background images, download materials
+Balsamiq – wireframes
+Am I responsive for the “live” images
+W3C Validators to validate both HTML and CSS code to check for errors
+Google fonts – fonts
+Font Awesome for icons
+
+## Features
+Entry to the site is via a short video. As I mentioned ealrier, the motivation behind this is to simply get another second or two of engagement and pique curiosity. I think it's engaing - asks a question
+
+I think once past that, users will enjoy the look and convenience of the home page, I've also placed a drop down on the navbar giving access to materials - get used to getting stuff from Profit Pharm website quickly.
+
+Having asked the question with the video - my hope is that they'll immediately see an answer in the form of or event.....click and register quickly. I also load some other links so that users can find ouit more.ie the Trading online voucher link appears a couiple of times in the site.......again,  a useful resource.
+
+If users do have questions - the contact page will handle that - bearing a GDPR minimimum statement and the option to sign up for a newsletter.....
+
+Rearding the Success model page - I've placed a couple of download links within the page, so, if they haven't time to digest it all - the may take dow n the worksheet and come back to it.
+
+Branding is on view throughout the site and discreet in the background image - so, not overpowering.
+
+As this is for MS1, there is no method or post attached to the send buttons.
+
+
+### Evolution
+
+In terms of what the plan is for the site......ultimately I want to create a subscription based participation - run online mostly. I somehow think that returning to the way things were will not be happening. So,the event in December is reallythe start of the process to launch the "members" site perhaps in the Spring of next year........ the idea is, for a reasonable monthly subscription - mebers get exclusive access to training materials, regular webinars, access to preferred partners and a range of other benfits. The website should become a platform for this,  hope a platform for training delivery, interaction and potentially a forum were pharmacists can meet and discuss pertinent issues and bounce of each other.....this doesn't exist at the minute
+
+
+
+
+## SEO
+Effective SEO is vital to the progress of this site.
+In terms of the site itself - each page has a title - a minimum quite requirement for google search
+also - have description and keywords in trhe meta area in the headers
+Once the site goes live - google analytics will be embedded and generate quality information which will help steer the future direction of site development.
+
+In addition, I will use embed Hotjar code into the site - so, will actually be able to watch "over the should video" of user visits. I'll also use Mouseflow once the site get a bit bigger to monitor mouse click journey during user site visits, again all with a view to maximising each visit and generate engagement and future clients.
+
+All this information will be review regularly, so that adjustments can be made quickly.
+
+
+
+
+## Testing
+I've tested the site for responsiveness through variou scenarios using Chrome Dev tools. No major issues. In addition, I've teated it on a variety of different browsers that I have access to - Edge, Firefox, Opera and also four other live devices - Microsoft Surface 3, A Toshiba 10" laptop - and 7and 10 inch tablets using stock Android - 
+
+As mentioned earlier - there no activity linked to the send buttons on the contact form, I have tested allthe links within the site and the work perfectly.
+
+I have tested the live phone number.....there are two on there - one is mine, the other is made up and the live one works across both iPhone and Android
+
+In addition, I've tested both HTML and CSS through the W3C validator - link below. No issue witrh the CSS. I did get a message on HTML. IT was regarding having the property "no-loop" on the video, which they didn't seem to happy with.
+The reason that is there is to enable the video to stop so that people can click the screen when they see they find out more button. In reality, the whole screen is clickable...just an eye trick with the button.
+
+It was the only way - in the absence of being able to use a preloader as it's outwith the scope of this project cycle.
+
+I did do some user testing - as I mentioned - I sent screen shots of the various pages to half a dozen pharmacists whose opinion I would value. I gave them the background to the site development and what the plan was for the future. Generally, they thought it's sounded very positve - apart from filling isn a long online form!!! So, that's encouraging.
+
+I also tested contrast on wave - and whilst the green and near black, do look great to me - apparently wave thought it wasn't a great combination. I'll stick with it for the meantime - if I get user feedback that it's an issue, I may consider adjuting it further down the road.
+
+
+
+
+## Issues
+There were no major issues during testing. There were a few issues during the development of the site, however these were ironed out with minor changes to property values. As this is my first coding experience - I did suffer a bit with "You don't know what you don't know" - so, whilst I could see the nature of an issue, sometimes it took quite a while to work out - that's learning. I think I could type the words "How do I....? with my eyes closed!!
+
+
+
+## Deployment
+To deploy this page to GitHub pages I followed this process:-
+
+Logged into GitHub from my Chrome browser
+
+selected the Profit Pharm repo Richard-Kelly920/profit-pharm
+
+using the nav bar on top, clicked and scrolled down to the Github pages section.
+
+select Branch Master - then Root and click on Save - this generates the URL for the site and voila! the websitew on gitpages in now live.
+
+
+
+
+
+## Cloning
+If you want to run my project on your local machine - then work always
+
+Cloning is pretty simple
+
+again - as before, get into GitHub
+find the repo Richard-Kelly920/profit-pharm
+click the green Code dropdown button select "open with GitHub from here follow the steps show and open in GitHUb or your IDE of choice
+
+
+
+
+## Credits
+
+### Images and Content
+The content of the site was written by myself.
+In addition - I built the video, background image and all the jigsaws piece images.
+
+The picture of me was taken by Martin McLaclan, KIlmarnock, Ayrshire Scotland
+
+The background image used in the Jumbtron was purchased for use by myself from Dreamtime. It was the perfect combination of colour and harmony with the message - seemed worth the value.
+
+
+
+Acknowledgments
+ A huge shout out to the people on Slack - I haven't been on there that often -(something else that needs to change as I head into the world of Javascript)
+ especially Jim and Anna for thier abundant approach in preparing and delivering fantastic content - 
+
+ also to Code Institute for the materials and inspiration I took for the walk through projects. It was amazing to see stuff evolve.
+
+ My mentor Spencer Barribal for his input and support - much appreciated
+
+ also - just the general world of coding - being new to the environment - it's refreshing to see and hopefully participate in such a community.
+
 
 
 
