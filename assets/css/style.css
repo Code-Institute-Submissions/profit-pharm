@@ -73,9 +73,9 @@ body {
  .rsk-card-container {
     z-index:1;
     height:auto;
-    margin-top:100px;
+    margin-top:10rem;
     margin-bottom:0;
-    padding:3.5rem;
+    padding: 3.5rem ;
     
 }
 
@@ -148,14 +148,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: 1;
+    z-index: -9999;
     display: flex;
     align-items: left;
     justify-content: center;
     position: relative;
 }
 .opaque-overlay {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     height: 100%;
@@ -566,7 +566,7 @@ input[type="url"] {
 
 
 @media only screen and (max-width: 993px) {
-  .card-text {
+  .card-text .card-text-rsk {
     font-size: 1.5rem;
   }
   .success-start p {
