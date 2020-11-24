@@ -68,6 +68,13 @@ I put them into Balsamic and the remaining three pages and the landing have stay
 
 I went with Roboto, as it is one of Google preferred UI interfaces and I wanted the best contrast esp on mobile devices. Went with Exo for card headers as I liked the shape, the characters being slightly taller for their width
 
+## Colour Palette
+Colour choice was based on the colours used by a leading Irish Pharmacy magazine – see pic. Most pharmacists see this once a month. This idea is to lead the pharmacist, in a subliminal way that it’s something they already recognise and trust. I like the mix myself and have designed artwork for pharmacies using these color combinations. I like the contrast.
+I also created the background image for the site – I layered a very dark green on top to match the generel theme, 
+
+![](https://github.com/Richard-Kelly920/profit-pharm/blob/e4c5779eb2f593afe348eb0efa6d308332214440/wireframes/My%20project.png)
+
+
 
 
 
