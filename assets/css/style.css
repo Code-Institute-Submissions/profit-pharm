@@ -25,7 +25,7 @@ body {
     color: whitesmoke;
 }
 .navbar-toggler {
-    right: 15px;
+    right: 1.5rem;
     position: absolute;
     border:none;
 }
@@ -69,7 +69,7 @@ body {
     
 }
 
-/*------------------------------------------------------------------Home*/
+/*------------------------------------------------------------------Home page*/
  .rsk-card-container {
     z-index:1;
     height:auto;
@@ -84,7 +84,7 @@ body {
 
 .card-text-rsk {
     font-size:1.75rem;
-    text-align:justify;
+    text-align:center;
    
    
 }
@@ -106,8 +106,38 @@ body {
     background-color:#219739; 
     text-decoration:none;
 }
+/*-------------------------------------testimonials*/
+.testimonial-container {
+    width:90%;
+}
 
+.testimonial-container h2{
+    font-size:3.5rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    margin-top:2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    width:auto;
+    height:auto;
+}
 
+.testimonial-container p{
+    font-size:2rem;
+    color:#219739;
+    text-align:center;
+    background-color:transparent;
+    margin-top: 2.5rem;
+    padding: 2.5rem 2.5rem 1rem 2rem;
+    
+    width:auto;
+    height:auto;
+}
+
+.testimonials em {
+    font-size:1.5rem;
+}
 
 
 
@@ -144,24 +174,41 @@ body {
     padding-bottom: 7.5rem;
 }
 .jumbotron {
-    background: rgba(33, 151, 57, 0.7); 
+    background: rgba(33, 151, 57, 0.75); 
 
-    margin-top:25rem;
+    margin-top:15rem;
     width:100%;
 }
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;   
+}
+.jumbotron h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem; 
+    font-size:4rem;  
 }
 
+.jumbotron h3 {
+    color: white;
+    
+    margin-bottom: 2rem; 
+    
+    font-size:2.5rem;  
+}
+
+
 .jumbotron-header {
-    font-size: 10rem;
+    font-size: 6rem;
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
-    margin: 2.5rem 0;
+    color: #553030;
+    margin: 1.5rem 0;
+    font-size:2rem;
+    font-weight: bold;
 }
 
 .jumbotron small {
@@ -170,16 +217,19 @@ body {
     color: #d0d0d0;
 }
 
+
 .urgent {
-    color:red;
-    font-size: 2rem;
+    color: #553030;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:2rem;
 }
 
 .btn-reg {
     font-family: 'Exo', sans-serif;
     font-weight: bold;
     color: #fafafa;
-    background-color: #219739;
+    background-color:#FF0000;
     border: 0.2rem solid #fafafa;
     border-radius: 2rem;
     height: 4rem;
@@ -189,19 +239,13 @@ body {
 }
 
 .btn-reg:hover {
-    background-color: #212529;
-    color: #219739;
-    border: 0.2rem solid #219739;
-}
-
-.schedule h2{
-    font-size: 2rem;
-    color:#fafafa;
+    background-color: #fafafa;
+    color:#FF0000;
+    border: 0.2rem solid #FF0000;
 }
 
 
-
-/*-----------------------------------------------------Success*/
+/*-----------------------------------------------------Success page*/
 
 
 .success-start h2{
@@ -251,10 +295,6 @@ body {
 .success-download h2 i:hover {
     color:#219739;
 }
-
-
-
-
 
 .card {
     border: 3px solid #219739;
@@ -385,34 +425,8 @@ input[type="url"] {
 .form-check  {
     margin-right: 1.5rem;
 }
-/*-------------------------------------testimonials*/
 
 
-.testimonial-container h2{
-    font-size:3rem;
-    color:#219739;
-    text-align:center;
-    background-color:transparent;
-    padding-top: 2rem;
-    padding-bottom: 0;
-    width:auto;
-    height:auto;
-}
-
-.testimonial-container p{
-    font-size:1.5rem;
-    color:#219739;
-    text-align:center;
-    background-color:transparent;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    width:auto;
-    height:auto;
-}
-
-.cname {
-    font-size:5rem;
-}
  /*-----------------------------------------footer*/
 
  
@@ -564,11 +578,14 @@ input[type="url"] {
     min-width: 12.5rem;
 }
 .jumbotron {
-    margin-top:3rem;
+    margin-top:4rem;
+    margin-bottom:4rem;
 }
 .jumbotron-header {
-    font-size: 5rem;
+    font-size: 3rem;
 }
+.
+
 
 }
 @media screen and (max-width: 480px) {
@@ -577,4 +594,11 @@ input[type="url"] {
 }
     .social-links li a i{
         text-align:center;
+}
+
+jumbotron h2 h3  {
+    font-size:1.75rem;
+}
+.jumbotron .lead  {
+    font-size:1.5rem;
 }
